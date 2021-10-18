@@ -1,0 +1,28 @@
+
+.header{
+   
+    color: #333;
+    padding: 2rem 0;
+
+    a{
+        color: #333;
+        text-decoration: none;
+    }
+}
+
+.log-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            display: inline-block;
+        }
+    }
+}
+

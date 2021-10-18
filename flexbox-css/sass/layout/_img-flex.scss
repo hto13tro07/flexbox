@@ -1,0 +1,41 @@
+.imagenes{
+     margin-top: 5px;
+     margin-left: 10px;
+     margin-right: 10px;
+     display: flex; 
+     flex-direction: row;   
+     width: auto;
+     height: auto;
+     
+}
+
+.imagenes2{
+
+     margin-top: 35px;     
+     display: flex;   
+     flex-direction: row; 
+     width: auto;
+     height: auto;
+     
+
+}
+.texto{
+    margin-left: 10px;
+     margin-right: 10px;
+
+}
+
+@media screen and (max-width: 768px){
+
+    .imagenes{
+        flex-direction: column;
+    }
+    .imagenes2{
+        flex-direction: column;
+    }
+   
+}
+
+
+
+

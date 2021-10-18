@@ -1,0 +1,54 @@
+.img-principal {
+   
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    max-height: 250px;   
+    
+
+}
+    
+.img-float{
+    margin-top: 5px;
+    margin-bottom: 10PX;
+     margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+    
+
+    .img2{
+        width: 25%;
+        border-radius: 200px;
+    }
+    .btn1{
+        margin-right: 5px;
+        padding: 5px;
+        background-color: aqua;
+        color: white;
+        text-decoration: none;
+    }
+    .btn2{
+
+        margin-right: 5px;
+        padding: 5px;
+        background-color:rgb(221, 142, 142);
+        color: white;
+        text-decoration: none;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    a .btn1 .btn2{
+        display: none;
+    }
+    
+}
+   
+  
+   
+
